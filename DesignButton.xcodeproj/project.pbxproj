@@ -14,6 +14,7 @@
 		31C88AAB1F33D48E00C08C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C88AA91F33D48E00C08C24 /* LaunchScreen.storyboard */; };
 		31C88AB61F33D48E00C08C24 /* DesignButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AB51F33D48E00C08C24 /* DesignButtonTests.swift */; };
 		31C88AC11F33D48E00C08C24 /* DesignButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AC01F33D48E00C08C24 /* DesignButtonUITests.swift */; };
+		31C88AD11F33D4DA00C08C24 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AD01F33D4DA00C08C24 /* DesignButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		31C88ABC1F33D48E00C08C24 /* DesignButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C88AC01F33D48E00C08C24 /* DesignButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButtonUITests.swift; sourceTree = "<group>"; };
 		31C88AC21F33D48E00C08C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C88AD01F33D4DA00C08C24 /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		31C88A9F1F33D48E00C08C24 /* DesignButton */ = {
 			isa = PBXGroup;
 			children = (
+				31C88AD01F33D4DA00C08C24 /* DesignButton.swift */,
 				31C88AA01F33D48E00C08C24 /* AppDelegate.swift */,
 				31C88AA21F33D48E00C08C24 /* ViewController.swift */,
 				31C88AA41F33D48E00C08C24 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C88AD11F33D4DA00C08C24 /* DesignButton.swift in Sources */,
 				31C88AA31F33D48E00C08C24 /* ViewController.swift in Sources */,
 				31C88AA11F33D48E00C08C24 /* AppDelegate.swift in Sources */,
 			);
