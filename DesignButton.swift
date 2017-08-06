@@ -10,8 +10,8 @@
 
 import UIKit
 
-//Custom Class for Button, which derives from UIButton
-@IBDesignable class UICustomButton: UIButton {
+//Custom Class for Button, which derives from UIButton (now, inheriting from BounceButton)
+@IBDesignable class UICustomButton: BounceButton {
 
     
     //PURPOSE: allows to modify the border width

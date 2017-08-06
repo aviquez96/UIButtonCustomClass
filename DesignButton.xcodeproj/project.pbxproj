@@ -15,6 +15,7 @@
 		31C88AB61F33D48E00C08C24 /* DesignButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AB51F33D48E00C08C24 /* DesignButtonTests.swift */; };
 		31C88AC11F33D48E00C08C24 /* DesignButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AC01F33D48E00C08C24 /* DesignButtonUITests.swift */; };
 		31C88AD11F33D4DA00C08C24 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AD01F33D4DA00C08C24 /* DesignButton.swift */; };
+		31C88AD41F36FC0D00C08C24 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88AD31F36FC0D00C08C24 /* BounceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31C88AC01F33D48E00C08C24 /* DesignButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButtonUITests.swift; sourceTree = "<group>"; };
 		31C88AC21F33D48E00C08C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31C88AD01F33D4DA00C08C24 /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = SOURCE_ROOT; };
+		31C88AD31F36FC0D00C08C24 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				31C88A9F1F33D48E00C08C24 /* DesignButton */,
+				31C88AD21F36FBCC00C08C24 /* Custom Controls */,
+				31C88AD51F37023E00C08C24 /* IB Designables */,
 				31C88AB41F33D48E00C08C24 /* DesignButtonTests */,
 				31C88ABF1F33D48E00C08C24 /* DesignButtonUITests */,
 				31C88A9E1F33D48E00C08C24 /* Products */,
@@ -99,7 +103,6 @@
 		31C88A9F1F33D48E00C08C24 /* DesignButton */ = {
 			isa = PBXGroup;
 			children = (
-				31C88AD01F33D4DA00C08C24 /* DesignButton.swift */,
 				31C88AA01F33D48E00C08C24 /* AppDelegate.swift */,
 				31C88AA21F33D48E00C08C24 /* ViewController.swift */,
 				31C88AA41F33D48E00C08C24 /* Main.storyboard */,
@@ -126,6 +129,22 @@
 				31C88AC21F33D48E00C08C24 /* Info.plist */,
 			);
 			path = DesignButtonUITests;
+			sourceTree = "<group>";
+		};
+		31C88AD21F36FBCC00C08C24 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				31C88AD31F36FC0D00C08C24 /* BounceButton.swift */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		31C88AD51F37023E00C08C24 /* IB Designables */ = {
+			isa = PBXGroup;
+			children = (
+				31C88AD01F33D4DA00C08C24 /* DesignButton.swift */,
+			);
+			name = "IB Designables";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C88AD11F33D4DA00C08C24 /* DesignButton.swift in Sources */,
+				31C88AD41F36FC0D00C08C24 /* BounceButton.swift in Sources */,
 				31C88AA31F33D48E00C08C24 /* ViewController.swift in Sources */,
 				31C88AA11F33D48E00C08C24 /* AppDelegate.swift in Sources */,
 			);
@@ -511,6 +531,7 @@
 				31C88AC71F33D48E00C08C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31C88AC81F33D48E00C08C24 /* Build configuration list for PBXNativeTarget "DesignButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +540,7 @@
 				31C88ACA1F33D48E00C08C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31C88ACB1F33D48E00C08C24 /* Build configuration list for PBXNativeTarget "DesignButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +549,7 @@
 				31C88ACD1F33D48E00C08C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
