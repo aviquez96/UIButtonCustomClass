@@ -19,14 +19,16 @@ import UIKit
         
         didSet {
             self.layer.borderWidth = borderWidth
+            setNeedsDisplay()
         }
     }
     
-    //PURPOSE: allows to modify the border color
-    @IBInspectable var borderColor : UIColor = UIColor.clear {
+    //PURPOSE: allows to modify the border color (clear is default)
+    @IBInspectable var borderColor : UIColor = UIColor.black {
     
         didSet {
             self.layer.borderColor = borderColor.cgColor
+            self.setNeedsDisplay()
         }
     }
     
@@ -34,6 +36,7 @@ import UIKit
     @IBInspectable var fontColor: UIColor = UIColor.clear {
         didSet {
             self.tintColor = fontColor
+            setNeedsDisplay()
         }
     }
     
@@ -41,9 +44,8 @@ import UIKit
     @IBInspectable var cornerRadius: CGFloat = 0.0 {
         didSet {
             self.layer.cornerRadius = cornerRadius
+            setNeedsDisplay()
         }
     }
-    
-    
     
 }
